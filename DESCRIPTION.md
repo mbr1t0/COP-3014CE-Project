@@ -1,4 +1,4 @@
-## Example Project Description:
+## Project Description:
 
 **Title: Video Game Information**
 
