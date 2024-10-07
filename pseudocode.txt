@@ -78,7 +78,7 @@ BEGIN
 		END IF
     	END ELSE
 	ELSE
-		if averageRate > 0 AND averageRate < 3 THEN 
+		IF averageRate > 0 AND averageRate < 3 THEN 
 			OUTPUT "Ouch! Some of these video games must not be fun."
 		END IF
 	END ELSE
