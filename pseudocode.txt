@@ -76,7 +76,7 @@ BEGIN
 		IF averageRate > 3 AND averageRate < 4 THEN 
 			OUTPUT "Not bad! Some of these video games must be pretty decent!"
 		END IF
-    END ELSE
+    	END ELSE
 	ELSE
 		if averageRate > 0 AND averageRate < 3 THEN 
 			OUTPUT "Ouch! Some of these video games must not be fun."
