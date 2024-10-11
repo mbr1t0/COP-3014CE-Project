@@ -25,7 +25,10 @@ any outside resources.
 
 ## Analysis of Specifications
 
-_Analysis of specifications is where you identify the inputs, outputs, and processes performed by the code. An example process in a blackjack game would be "generate a random card for the user". This section must contain an IPO chart for each function._
+The user will be prompted to enter the name of a game which will not be outputed.
+The user will be prompted to enter the total hours played of a game, then it will add all the inputs together and output the total.
+The user will be prompted to enter the price of a game, then it will add all the inputs together and output the total.
+The user will be prompted to enter a personal game rating of a game, then it will add all the inputs together, divide the total by five, and output the average.
 
 ### Main
 
