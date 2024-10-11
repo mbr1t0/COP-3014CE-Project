@@ -62,7 +62,7 @@ BEGIN
 	
 	// Prompts user to enter following Informaion
 	// Loops 5 times
-	REPEAT counter > 0 // Test
+	WHILE counter > 0 // Test
 	
 		// Prompts user to enter name of the video game
 		OUTPUT "What is the name of this video game?: "
@@ -70,33 +70,33 @@ BEGIN
 
 		// Prompts user to enter total hours played on the game
 		// Loops until Input is Positive
-		REPEAT 
+		DO 
 			OUTPUT "How many total hours have you played?: "
 			INPUT gameHours
 			IF gameHours < 0 THEN
 				OUTPUT "Error: Enter a valid number that is not negative."
 			END IF
-		UNTIL gameHours < 0
+		WHILE gameHours < 0
 
 		// Prompts user to enter price of the game
 		// Loops until Input is Positive
-		REPEAT 
+		DO 
 			OUTPUT "What is the price of the video game?: $"
 			INPUT gamePrice
 			IF gamePrice < 0 THEN
 				OUTPUT "Error: Enter a valid number that is not negative."
 			END IF
-		UNTIL gamePrice < 0
+		WHILE gamePrice < 0
 
 		// Prompts user to enter personal game rating
 		// Loops until input is ranged from 1-5
-		REPEAT 
+		DO 
 			OUTPUT "What would you rate this game from a scale of 1-5 stars?: "
 			INPUT gameRate
 			IF gameRate < 0 OR gameRate > 5 THEN
 				OUTPUT "Error: Enter a valid number that ranges from 1-5."
 			END IF
-		UNTIL gameRate < 0 OR gameRate > 5
+		WHILE gameRate < 0 OR gameRate > 5
 		
 		// All variables will update every loop
 		SET counter = counter - 1 // Update
