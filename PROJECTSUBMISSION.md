@@ -25,10 +25,10 @@ any outside resources.
 
 ## Analysis of Specifications
 
-The user will be prompted to enter the name of a game which will not be outputed.
-The user will be prompted to enter the total hours played of a game, then it will add all the inputs together and output the total.
-The user will be prompted to enter the price of a game, then it will add all the inputs together and output the total.
-The user will be prompted to enter a personal game rating of a game, then it will add all the inputs together, divide the total by five, and output the average.
+- The user will be prompted to enter the name of a game which will not be outputed.
+- The user will be prompted to enter the total hours played of a game, then it will add all the inputs together and output the total.
+- The user will be prompted to enter the price of a game, then it will add all the inputs together and output the total.
+- The user will be prompted to enter a personal game rating of a game, then it will add all the inputs together, divide the total by five, and output the average.
 
 ### Main
 
