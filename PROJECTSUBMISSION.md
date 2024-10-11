@@ -164,4 +164,4 @@ _Updated: **[10/10/2024]**_
 
 ## References
 
-None
+There were no references used in this project.
