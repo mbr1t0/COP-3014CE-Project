@@ -29,11 +29,10 @@ _Analysis of specifications is where you identify the inputs, outputs, and proce
 
 ### Main
 
-_Fill in the values in the IPO Chart. See video in Canvas for example._
-
 | Input    | Process  | Output   |
 | -------- | -------- | -------- |
-| Text     | Text     | Text     |
+| Game name     | Text     | Name of the hame     |
+|
 
 
 ## Pseudocode
