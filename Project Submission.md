@@ -155,7 +155,7 @@ _Test cases should include edge cases (values near the upper and lower bounds of
 
 ## Code
 
-_Include a link to your `cpp` file._ https://github.com/mbr1t0/COP-3014CE-Project/blob/main/code.cpp
+https://github.com/mbr1t0/COP-3014CE-Project/blob/main/code.cpp
 
 ## User Manual
 _Include a link to a separate file called GUIDE.md_
