@@ -1,4 +1,4 @@
-# [User Manual Title]
+# [Video Game Informatino Manual]
 
 _Author: **[Miguel Brito]**_ <br/>
 _Version: **[1.0]**_ <br/>
