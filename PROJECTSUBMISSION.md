@@ -4,7 +4,7 @@
 
 [//]: <> (Copy this file and rename it based on the submission number, i.e., PART1.md. Remove all the comments and italisized text before submitting.)
 
-_Describe what the requirements are for the project._
+The program will allow the user to input the name, total hours played, price, and personal game rating from 1-5 stars for 5 video games. The user will then receive a result of average game hours, total money spent, average game ratings, and some feedback.
 
 ## Table of Contents
 1. [Statement of Independent Effort](#statement-of-independent-effort)
