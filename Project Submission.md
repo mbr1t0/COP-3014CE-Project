@@ -19,8 +19,6 @@ _Describe what the requirements are for the project._
 
 ## Statement of Independent Effort
 
-_Only keep the statement that applies_
-
 I, ***[Miguel Brito]***, hereby certify that is my original work completed without the assistance of anyone or
 any outside resources.
 
