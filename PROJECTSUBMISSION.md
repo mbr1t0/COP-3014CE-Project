@@ -29,9 +29,9 @@ _Analysis of specifications is where you identify the inputs, outputs, and proce
 
 ### Main
 
-| Input    | Process  | Output   |
+| Input | Process | Output |
 | -------- | -------- | -------- |
-| Game name     | Text     | Name of the hame     |
+| Game name | Text | Name of the game |
 |
 
 
