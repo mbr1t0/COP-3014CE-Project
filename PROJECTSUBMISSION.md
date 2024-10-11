@@ -146,7 +146,7 @@ _Test cases should include edge cases (values near the upper and lower bounds of
 
 **Example (remove from submission)**
 
-|Case #|Case Description|Input|Condition gameRate < 0 OR gameRate > 5|Output|
+|Case #|Case Description|Input|Condition gameRate < 0 OR <br/>gameRate > 5|Output|
 |:---:|:---|:---|:---|:---|
 |1|Rating that should be approved|gameRate = 1|False|Approved|
 |2|Rating that should be approved (edge case)|gameRate = 5|False|Approved|
