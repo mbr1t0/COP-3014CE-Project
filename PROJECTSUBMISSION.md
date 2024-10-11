@@ -142,10 +142,6 @@ _Paste flowchart image here. Note that the image has to uploaded to your reposit
 
 ## Test Cases
 
-_Test cases should include edge cases (values near the upper and lower bounds of the allowed values), and acceptable and unacceptable values. Produce at least 5 unique cases._
-
-**Example (remove from submission)**
-
 |Case #|Case Description|Input|Condition gameRate < 0 OR <br/>gameRate > 5|Output|
 |:---:|:---|:---|:---|:---|
 |1|Rating that should be approved|gameRate = 1|False|Approved|
