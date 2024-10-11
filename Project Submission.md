@@ -21,7 +21,7 @@ _Describe what the requirements are for the project._
 
 _Only keep the statement that applies_
 
-I, ***[YOUR NAME]***, hereby certify that is my original work completed without the assistance of anyone or
+I, ***[Miguel Brito]***, hereby certify that is my original work completed without the assistance of anyone or
 any outside resources.
 
 **OR**
