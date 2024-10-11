@@ -142,7 +142,7 @@ _Paste flowchart image here. Note that the image has to uploaded to your reposit
 
 ## Test Cases
 
-|Case #|Case Description|Input|Condition gameRate < 0 OR <br/>gameRate > 5|Output|
+|Case #|Case Description|Input|Condition gameRate < 0.0 OR <br/>gameRate > 5.0|Output|
 |:---:|:---|:---|:---|:---|
 |1|Rating that should be approved|gameRate = 1|False|Approved|
 |2|Rating that should be approved (edge case)|gameRate = 5|False|Approved|
