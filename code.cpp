@@ -25,7 +25,7 @@ int main() {
 
     // Prompts user to enter following Informaion
 	// Loops 5 times
-    do(counter > 0) { // Test
+    while(counter > 0) { // Test
         
         // Prompts user to enter name of the video game
 		cout << "What is the name of this video game?: ";
@@ -62,7 +62,7 @@ int main() {
         }
 
         // All variables will update every loop
-        counter = counter - 1; // Update
+        counter -= 1; // Update
         averageHours = averageHours + gameHours;
         totalMoney = totalMoney + gamePrice;
         totalRate = totalRate + gameRate;
