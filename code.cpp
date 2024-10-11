@@ -81,10 +81,13 @@ int main() {
         if averageRate > 3 && averageRate < 4 {
             cout << "Not bad! Some of these video games must be pretty decent!";
         }
-    }
-    else {
-        if averageRate > 0 && averageRate < 3 {
-            cout << "Ouch! Some of these video games must not be fun.";
+        else {
+            if averageRate > 0 && averageRate < 3 {
+                cout << "Ouch! Some of these video games must not be fun.";
+            }
+            else {
+                cout << "Error.";
+            }
         }
     }
 
