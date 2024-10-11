@@ -1,4 +1,4 @@
-# Project Part [...]
+# Project Submission (Video Game Information)
 
 [//]: <> (Basic markdown syntax can be found here -https://www.markdownguide.org/basic-syntax/)
 
