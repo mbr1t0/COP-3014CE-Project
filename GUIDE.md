@@ -1,9 +1,9 @@
 # [User Manual Title]
 
-_Author: **[YOUR NAME]**_ <br/>
-_Version: **[VERSION NUMBER]**_ <br/>
-_Revised: **[REVISION DATE]**_ <br/>
-<small>Copyright (C)**[CURRENT YEAR]**, <i>All rights reserved.</i></small>
+_Author: **[Miguel Brito]**_ <br/>
+_Version: **[1.0]**_ <br/>
+_Revised: **[10/10/2024]**_ <br/>
+<small>Copyright (C)**[2024]**, <i>All rights reserved.</i></small>
 
 [//]: <> (User Guide Samples: https://www.dropbox.com/scl/fo/l4cwcd61u2k6n8w6ovbzu/h?rlkey=djxdqkmyexvbw7jcdao6u2hlg&dl=1)
 
