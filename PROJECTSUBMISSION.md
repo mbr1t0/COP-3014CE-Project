@@ -22,10 +22,6 @@ _Describe what the requirements are for the project._
 I, ***[Miguel Brito]***, hereby certify that is my original work completed without the assistance of anyone or
 any outside resources.
 
-**OR**
-
-I, ***[YOUR NAME]***, hereby certify that this is my original work completed with the assistance of ***[NAME]***/the resources listed in the reference. I used these resources in the following areas: ***[...]***.
-
 
 ## Analysis of Specifications
 
