@@ -34,7 +34,7 @@ _Analysis of specifications is where you identify the inputs, outputs, and proce
 | Game name | Prompts game name | None |
 | Game hours | Promptes game hours and adds them together | Average hours played |
 | Game price | Prompts game price and adds them together | Total money spent |
-| Game rate | Prompts game rate and adds them together then dive by five | Average game ratings |
+| Game rate | Prompts game rate and adds them together then divides by five | Average game ratings |
 
 
 ## Pseudocode
