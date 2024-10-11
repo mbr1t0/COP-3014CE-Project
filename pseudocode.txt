@@ -6,8 +6,9 @@ BEGIN
 
     // Declare variables
 	DECLARE String gameName
-	DECLARE Real gameHours, gamePrice, gameRate, averageHours, totalMoney, totalRate, averageRate
-	DECLARE Real counter = 5 // Initialization
+	DECLARE Integer gameHours, gameRate, averageHours, totalRate
+	DECLARE Real gamePrice, totalMoney, averageRate
+	DECLARE Integer counter = 5 // Initialization
 
 	// Prompts user to enter following information
 	OUTPUT "Enter the following information for 5 different video games."

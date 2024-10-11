@@ -9,7 +9,8 @@ using namespace std;
 int main() {
     // Declare variables
     string gameName;
-    int gameHours, gamePrice, gameRate, averageHours, totalMoney, totalRate, averageRate;
+    int gameHours, gameRate, averageHours, totalRate;
+    float gamePrice, totalMoney, averageRate;
     int counter{5}; // Initialization
 
 	// Prompts user to enter following information
