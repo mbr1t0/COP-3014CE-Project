@@ -155,13 +155,12 @@ _Test cases should include edge cases (values near the upper and lower bounds of
 
 ## Code
 
-https://github.com/mbr1t0/COP-3014CE-Project/blob/main/code.cpp
+[Code] (code.cpp) <br/>
 
 ## User Manual
-https://github.com/mbr1t0/COP-3014CE-Project/blob/main/GUIDE.md
 
 [User Manual](GUIDE.md) <br/>
-_Updated: **[10/11/2024]**_
+_Updated: **[10/10/2024]**_
 
 ## References
 
