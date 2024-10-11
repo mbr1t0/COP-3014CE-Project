@@ -151,6 +151,8 @@ _Test cases should include edge cases (values near the upper and lower bounds of
 |1|Rating that should be approved|gameRate = 1|False|Approved|
 |2|Rating that should be approved (edge case)|gameRate = 5|False|Approved|
 |3|Rating that should not be approved|gameRate = 10|True|Not Approved|
+|4|Rating that should not be approved|gameRate = -1|True|Not Approved|
+|5|Rating that should not be approved|gameRate = 5.1|True|Not Approved|
 
 
 ## Code
