@@ -4,7 +4,7 @@
 
 [//]: <> (Copy this file and rename it based on the submission number, i.e., PART1.md. Remove all the comments and italisized text before submitting.)
 
-The program will allow the user to input the name, total hours played, price, and personal game rating from 1-5 stars for 5 video games. The user will then receive a result of average game hours, total money spent, average game ratings, and some feedback.
+In this project, I will create a program that gives video game information using C++. The program will allow the user to input the name, total hours played, price, and personal game rating from 1-5 stars for 5 video games. The user will then receive a result of average game hours, total money spent, average game ratings, and some feedback.
 
 ## Table of Contents
 1. [Statement of Independent Effort](#statement-of-independent-effort)
