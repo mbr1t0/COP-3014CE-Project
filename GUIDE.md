@@ -1,4 +1,4 @@
-# [Video Game Informatino Manual]
+# [Video Game Information Manual]
 
 _Author: **[Miguel Brito]**_ <br/>
 _Version: **[1.0]**_ <br/>
