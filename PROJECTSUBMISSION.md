@@ -4,7 +4,7 @@
 
 [//]: <> (Copy this file and rename it based on the submission number, i.e., PART1.md. Remove all the comments and italisized text before submitting.)
 
-_Describe what the requirements are for the project._
+In this project, I will create a program that gives video game information using C++. The program will allow the user to input the name, total hours played, price, and personal game rating from 1-5 stars for 5 video games. The user will then receive a result of average game hours, total money spent, average game ratings, and some feedback.
 
 ## Table of Contents
 1. [Statement of Independent Effort](#statement-of-independent-effort)
@@ -22,22 +22,22 @@ _Describe what the requirements are for the project._
 I, ***[Miguel Brito]***, hereby certify that is my original work completed without the assistance of anyone or
 any outside resources.
 
-**OR**
-
-I, ***[YOUR NAME]***, hereby certify that this is my original work completed with the assistance of ***[NAME]***/the resources listed in the reference. I used these resources in the following areas: ***[...]***.
-
 
 ## Analysis of Specifications
 
-_Analysis of specifications is where you identify the inputs, outputs, and processes performed by the code. An example process in a blackjack game would be "generate a random card for the user". This section must contain an IPO chart for each function._
+- The user will be prompted to enter the name of a game which will not be outputed.
+- The user will be prompted to enter the total hours played of a game, then it will add all the inputs together and output the average hours played.
+- The user will be prompted to enter the price of a game, then it will add all the inputs together and output the total money spent.
+- The user will be prompted to enter a personal game rating of a game, then it will add all the inputs together, divide the total by five, and output the average game ratings and feedback.
 
 ### Main
 
-_Fill in the values in the IPO Chart. See video in Canvas for example._
-
-| Input    | Process  | Output   |
+| Input | Process | Output |
 | -------- | -------- | -------- |
-| Text     | Text     | Text     |
+| Game name | Prompts game name | None |
+| Game hours | Promptes game hours and adds them together | Average hours played |
+| Game price | Prompts game price and adds them together | Total money spent |
+| Game rate | Prompts game rate and adds them together then divides by five | Average game ratings and feedback |
 
 
 ## Pseudocode
@@ -65,7 +65,7 @@ BEGIN
 	
 	// Prompts user to enter following Informaion
 	// Loops 5 times
-	REPEAT counter > 0 // Test
+	WHILE counter > 0 // Test
 	
 		// Prompts user to enter name of the video game
 		OUTPUT "What is the name of this video game?: "
@@ -73,33 +73,33 @@ BEGIN
 
 		// Prompts user to enter total hours played on the game
 		// Loops until Input is Positive
-		REPEAT 
+		DO 
 			OUTPUT "How many total hours have you played?: "
 			INPUT gameHours
 			IF gameHours < 0 THEN
 				OUTPUT "Error: Enter a valid number that is not negative."
 			END IF
-		UNTIL gameHours < 0
+		WHILE gameHours < 0
 
 		// Prompts user to enter price of the game
 		// Loops until Input is Positive
-		REPEAT 
+		DO 
 			OUTPUT "What is the price of the video game?: $"
 			INPUT gamePrice
 			IF gamePrice < 0 THEN
 				OUTPUT "Error: Enter a valid number that is not negative."
 			END IF
-		UNTIL gamePrice < 0
+		WHILE gamePrice < 0
 
 		// Prompts user to enter personal game rating
 		// Loops until input is ranged from 1-5
-		REPEAT 
+		DO 
 			OUTPUT "What would you rate this game from a scale of 1-5 stars?: "
 			INPUT gameRate
 			IF gameRate < 0 OR gameRate > 5 THEN
 				OUTPUT "Error: Enter a valid number that ranges from 1-5."
 			END IF
-		UNTIL gameRate < 0 OR gameRate > 5
+		WHILE gameRate < 0 OR gameRate > 5
 		
 		// All variables will update every loop
 		SET counter = counter - 1 // Update
@@ -142,27 +142,24 @@ _Paste flowchart image here. Note that the image has to uploaded to your reposit
 
 ## Test Cases
 
-_Test cases should include edge cases (values near the upper and lower bounds of the allowed values), and acceptable and unacceptable values. Produce at least 5 unique cases._
-
-**Example (remove from submission)**
-
-|Case #|Case Description|Input|Condition (price > creditLimit)|Output|
-|:---:|:---|:---|:---:|:---|
-|1|Item that should be approved|Price = 7800|False |Approved|
-|2|Item that should be approved (edge case)|Price = 8000 |False|Approved|
-|3|Item that should not be approved|Price = 10000|True| Not Approved|
+|Case #|Case Description|Input|Condition gameRate < 0.0 OR <br/>gameRate > 5.0|Output|
+|:---:|:---|:---|:---|:---|
+|1|Rating that should be approved|gameRate = 1|False|Approved|
+|2|Rating that should be approved (edge case)|gameRate = 5|False|Approved|
+|3|Rating that should not be approved|gameRate = 10|True|Not Approved|
+|4|Rating that should not be approved|gameRate = -1|True|Not Approved|
+|5|Rating that should not be approved|gameRate = 5.1|True|Not Approved|
 
 
 ## Code
 
-https://github.com/mbr1t0/COP-3014CE-Project/blob/main/code.cpp
+[Code](code.cpp) <br/>
 
 ## User Manual
-_Include a link to a separate file called GUIDE.md_
 
 [User Manual](GUIDE.md) <br/>
-_Updated: **[DATE]**_
+_Updated: **[10/10/2024]**_
 
 ## References
 
-_List all references in [APA 7 Format](https://owl.purdue.edu/owl/research_and_citation/apa_style/apa_formatting_and_style_guide/index.html)._
+There were no references used in this project.
