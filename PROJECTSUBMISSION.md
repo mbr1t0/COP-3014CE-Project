@@ -155,7 +155,7 @@ _Test cases should include edge cases (values near the upper and lower bounds of
 
 ## Code
 
-[Code] (code.cpp) <br/>
+[Code] (https://github.com/mbr1t0/COP-3014CE-Project/blob/main/code.cpp) <br/>
 
 ## User Manual
 
