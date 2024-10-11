@@ -158,11 +158,11 @@ _Test cases should include edge cases (values near the upper and lower bounds of
 https://github.com/mbr1t0/COP-3014CE-Project/blob/main/code.cpp
 
 ## User Manual
-_Include a link to a separate file called GUIDE.md_
+https://github.com/mbr1t0/COP-3014CE-Project/blob/main/GUIDE.md
 
 [User Manual](GUIDE.md) <br/>
-_Updated: **[DATE]**_
+_Updated: **[10/11/2024]**_
 
 ## References
 
-_List all references in [APA 7 Format](https://owl.purdue.edu/owl/research_and_citation/apa_style/apa_formatting_and_style_guide/index.html)._
+None
