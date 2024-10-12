@@ -51,17 +51,18 @@ BEGIN
 
     // Declare variables
 	DECLARE String gameName
+	totalRate
 	DECLARE Real gameHours, gamePrice, gameRate, averageHours, totalMoney, totalRate, averageRate
-	DECLARE Real counter = 5 // Initialization
-
-	// Prompts user to enter following information
-	OUTPUT "Enter the following information for 5 different video games."
+	DECLARE Integer counter = 5 // Initialization
 
 	// Create a function to display results
 	FUNCTION displayResults
 		OUTPUT  "Average hours played: " + averageHours + " hours"
 		OUTPUT "Total money spent: $" + totalMoney
 		OUTPUT "Average game ratings: " + averageRate
+
+	// Prompts user to enter following information
+	OUTPUT "Enter the following information for 5 different video games."
 	
 	// Prompts user to enter following Informaion
 	// Loops 5 times
@@ -73,7 +74,7 @@ BEGIN
 
 		// Prompts user to enter total hours played on the game
 		// Loops until Input is Positive
-		DO 
+		DO
 			OUTPUT "How many total hours have you played?: "
 			INPUT gameHours
 			IF gameHours < 0 THEN
@@ -93,13 +94,13 @@ BEGIN
 
 		// Prompts user to enter personal game rating
 		// Loops until input is ranged from 1-5
-		DO 
+		DO
 			OUTPUT "What would you rate this game from a scale of 1-5 stars?: "
 			INPUT gameRate
-			IF gameRate < 0 OR gameRate > 5 THEN
+			IF gameRate < 0.0 OR gameRate > 5.0 THEN
 				OUTPUT "Error: Enter a valid number that ranges from 1-5."
 			END IF
-		WHILE gameRate < 0 OR gameRate > 5
+		WHILE gameRate < 0.0 OR gameRate > 5.0
 		
 		// All variables will update every loop
 		SET counter = counter - 1 // Update
@@ -108,21 +109,21 @@ BEGIN
 		SET totalRate = totalRate + gameRate
 
 	// Set and calculate the average rate into a percentage
-	SET averageRate = totalRate / 5
+	SET averageRate = totalRate / 5.0
 
 	// Display results
 	CALL displayResults
 
 	// Outputs feedback with if statements
-	IF averageRate >= 4 AND averageRate <= 5 THEN 
+	IF averageRate >= 4.0 AND averageRate <= 5.0 THEN 
 		OUTPUT "Wow! Some of these video games must be fun to play!"
 	END IF
 	ELSE
-		IF averageRate > 3 AND averageRate < 4 THEN 
+		IF averageRate > 3.0 AND averageRate < 4.0 THEN 
 			OUTPUT "Not bad! Some of these video games must be pretty decent!"
 		END IF
 		ELSE
-			IF averageRate > 0 AND averageRate < 3 THEN 
+			IF averageRate > 0 AND averageRate < 3.0 THEN 
 				OUTPUT "Ouch! Some of these video games must not be fun."
 			END IF
 			ELSE
