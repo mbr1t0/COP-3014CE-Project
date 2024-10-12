@@ -1,8 +1,8 @@
 # [Video Game Information Manual]
 
 _Author: **[Miguel Brito]**_ <br/>
-_Version: **[1.1]**_ <br/>
-_Revised: **[10/11/2024]**_ <br/>
+_Version: **[1.2]**_ <br/>
+_Revised: **[10/12/2024]**_ <br/>
 <small>Copyright (C)**[2024]**, <i>All rights reserved.</i></small>
 
 [//]: <> (User Guide Samples: https://www.dropbox.com/scl/fo/l4cwcd61u2k6n8w6ovbzu/h?rlkey=djxdqkmyexvbw7jcdao6u2hlg&dl=1)
@@ -39,4 +39,16 @@ _Revised: **[10/11/2024]**_ <br/>
 </dl>
 
 ## Other Sections
-_This section and those that follow are unique to your program. Ensure this guide offers step by step information on how to use your program. Add as many sections as relevant to your program. Be sure to add images. Use the sample guides in the comments above as examples._
+- The user will be prompted to enter the following information 5 times:
+    - Enter the name of the video game.
+    - Enter the total hours played on the video game.
+        - If the user receives an Error message then the user must enter a valid number that is not negative.
+    - Enter the price of the video game.
+        - If the user receives an Error message then the user must enter a valid number that is not negative.
+    - Enter a personal rating of the video game from 1-5 stars.
+        - If the user receives an Error message then the user must enter a valid number that ranges from 1-5.
+- The user will then recieve a result of:
+    - Average hours played.
+    - Total money spent.
+    - Average game ratings.
+    - Some feedback.
