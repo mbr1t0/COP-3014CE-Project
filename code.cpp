@@ -91,5 +91,5 @@ int main() {
         }
     }
 
-    return 0d;
+    return 0;
 }
