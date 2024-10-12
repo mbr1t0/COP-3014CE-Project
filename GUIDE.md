@@ -53,4 +53,4 @@ _Revised: **[10/12/2024]**_ <br/>
     - Average game ratings.
     - Some feedback.
 
-![Alt text](<Programming Project Terminal (Video Game Information).png>)
+![Alt text](TERMINALPA01.png)

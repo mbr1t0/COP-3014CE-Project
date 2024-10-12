@@ -157,7 +157,7 @@ END
 ## User Manual
 
 [User Manual](GUIDE.md) <br/>
-_Updated: **[10/10/2024]**_
+_Updated: **[10/12/2024]**_
 
 ## References
 
