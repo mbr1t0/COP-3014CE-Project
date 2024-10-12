@@ -1,8 +1,8 @@
 # [Video Game Information Manual]
 
 _Author: **[Miguel Brito]**_ <br/>
-_Version: **[1.0]**_ <br/>
-_Revised: **[10/10/2024]**_ <br/>
+_Version: **[1.1]**_ <br/>
+_Revised: **[10/11/2024]**_ <br/>
 <small>Copyright (C)**[2024]**, <i>All rights reserved.</i></small>
 
 [//]: <> (User Guide Samples: https://www.dropbox.com/scl/fo/l4cwcd61u2k6n8w6ovbzu/h?rlkey=djxdqkmyexvbw7jcdao6u2hlg&dl=1)
@@ -13,7 +13,7 @@ _Revised: **[10/10/2024]**_ <br/>
 2. [Major Features](#major-features)
 
 ## Introduction
-_Introduce your application. Describe it's purpose and who your intended user is._
+"Video Game Information" is an application that gives the user information about all the video game information that has been entered by a user. The program will allow the user to input the name, total hours played, price, and personal game rating from 1-5 stars for 5 video games. The user will then receive a result of average game hours, total money spent, average game ratings, and some feedback. My intended user is one who wants to know about how much they have played and spent on 5 video games, and they will also want to know how much they enjoy or dislike the 5 video games as whole or average.
 
 ## Major Features
 _List and describe the major features of your application._
