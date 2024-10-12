@@ -61,7 +61,7 @@ int main() {
         } while (gameRate < 0.0 || gameRate > 5.0);
 
         // All variables will update every loop
-        counter = counter - 1; // Update
+        counter -= 1; // Update
         averageHours = averageHours + gameHours;
         totalMoney = totalMoney + gamePrice;
         totalRate = totalRate + gameRate;
