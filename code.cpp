@@ -75,18 +75,18 @@ int main() {
 
     // Outputs feedback with if statements
     if (averageRate >= 4.0 && averageRate <= 5.0) {
-        cout << "Wow! Some of these video games must be fun to play!";
+        cout << "Wow! Some of these video games must be fun to play!" << endl;
     }
     else {
         if (averageRate > 3.0 && averageRate < 4.0) {
-            cout << "Not bad! Some of these video games must be pretty decent!";
+            cout << "Not bad! Some of these video games must be pretty decent!" << endl;
         }
         else {
             if (averageRate > 0 && averageRate < 3.0) {
-                cout << "Ouch! Some of these video games must not be fun.";
+                cout << "Ouch! Some of these video games must not be fun." << endl;
             }
             else {
-                cout << "Error.";
+                cout << "Error." << enld;
             }
         }
     }
