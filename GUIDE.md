@@ -52,3 +52,4 @@ _Revised: **[10/12/2024]**_ <br/>
     - Total money spent.
     - Average game ratings.
     - Some feedback.
+    ![Alt text](<Programming Project Terminal (Video Game Information).png>)
