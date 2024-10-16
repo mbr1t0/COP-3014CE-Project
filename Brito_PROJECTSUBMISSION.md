@@ -135,7 +135,7 @@ END
 
 ## Flowchart
 
-[Flowchart](FLOWCHARTPA01.png)
+[Flowchart](Brito_FLOWCHARTPA01.png)
 
 [//]: <> (The syntax to add an image can be found here - https://www.markdownguide.org/basic-syntax/#images-1)
 
@@ -152,11 +152,11 @@ END
 
 ## Code
 
-[Code](code.cpp) <br/>
+[Code](Brito_code.cpp) <br/>
 
 ## User Manual
 
-[User Manual](GUIDE.md) <br/>
+[User Manual](Brito_GUIDE.md) <br/>
 _Updated: **[10/12/2024]**_
 
 ## References

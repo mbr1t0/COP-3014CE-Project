@@ -53,4 +53,4 @@ _Revised: **[10/12/2024]**_ <br/>
     - Average game ratings.
     - Some feedback.
 
-![Alt text](TERMINALPA01.png)
+![Alt text](Brito_TERMINALPA01.png)
