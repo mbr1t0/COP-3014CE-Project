@@ -135,7 +135,7 @@ END
 
 ## Flowchart
 
-[Flowchart](Brito_FLOWCHARTPA01.png)
+[Flowchart](Brito_FLOWCHART.png)
 
 [//]: <> (The syntax to add an image can be found here - https://www.markdownguide.org/basic-syntax/#images-1)
 
