@@ -19,7 +19,7 @@ In this project, I will create a program that gives video game information using
 
 ## Statement of Independent Effort
 
-I, ***[Miguel Brito]***, hereby certify that this is my original work completed with the assistance of the resources listed in the reference. I used these resources in the following areas: ***[Fundamental Data Types, Variables, Comments, Libraries, Output, Input, Pseudocode, Flowchart, Selection Statements, Iteration Statements, Counter Control Loop, Compound Operators]***.
+I, ***[Miguel Brito]***, hereby certify that this is my original work completed with the assistance of the resources listed in the reference. I used these resources in the following areas: ***[Fundamental Data Types, Variables, Comments, Libraries, Output, Input, Pseudocode, Flowchart, Selection Statements, Iteration Statements, Counter Control Loop, Compound Operators, Switch Multiple-Selection Statements]***.
 
 
 ## Analysis of Specifications
@@ -163,3 +163,4 @@ _Updated: **[10/12/2024]**_
 
 - Coote, Vanessa (2024, September 3) Chapter 2: Intro to C++ Programming
 - Coote, Vanessa (2024, September 19) Chapter 3: Control Statements and Algorithm Development (Part 1)
+- Coote, Vanessa (2024, October 15) Chatper 4: Control Statements (Part 2)
