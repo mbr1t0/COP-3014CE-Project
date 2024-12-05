@@ -3,7 +3,7 @@
 **Title: Video Game Information**
 
 **Description:**
-In this project, I will create a program that gives video game information using C++. The program will allow the user to input the name, total hours played, price, and personal game rating from 1-5 stars for 5 video games. The user will then receive a result of average game hours, total money spent, average game ratings, and some feedback.
+In this project, I will create a program that gives video game information using C++. The program will allow the user to input the name, total hours played, price, and personal game rating from 1-5 stars for 10 video games. The user will then receive a result of total game hours, average game hours, total money spent, average game ratings, and some feedback.
 
 **Requirements:**
 
@@ -26,3 +26,4 @@ In this project, I will create a program that gives video game information using
 
 6. **Error Handling:**
    - Include if/else statements to handle potential errors, such as invalid user input or file reading errors.
+
